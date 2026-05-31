@@ -35,3 +35,26 @@ Every cell interacts with its eight neighbors (horizontal, vertical, and diagona
 - HTML5: For the page structure and layout UI.
 - CSS3: For styling, custom control sliders, and responsive grid aesthetics.
 - JavaScript: For the core game logic, state management, and grid rendering.
+
+## Getting started
+
+To run this project locally, follow these simple steps:
+1. Clone the Repository
+```bash
+git clone [https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git)
+```
+
+
+2. Open the Project
+
+Navigate into the project directory and open the index.html file in your preferred web browser.
+
+```bash
+cd YOUR_REPOSITORY_NAME
+# On macOS/Linux:
+open index.html
+# On Windows:
+start index.html
+```
+
+Alternatively, you can use an extension like Live Server in VS Code to host it locally.
