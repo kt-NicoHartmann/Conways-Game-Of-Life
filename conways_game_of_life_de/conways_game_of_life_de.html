@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html lang="de">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Conway's Game of Life</title>
+<link href="css/styles.css" rel="stylesheet"/>
+</head>
+<body>
+<div id="gol-wrap" style="background-color: white;">
+<div id="gol-controls">
+<button id="btn-play">▶ Start</button>
+<button id="btn-step">Schritt</button>
+<button id="btn-clear">Löschen</button>
+<button id="btn-random">Zufall</button>
+<button id="btn-glider">Gleiter</button>
+<button id="btn-pulsar">Pulsar</button>
+<div id="gol-speed-wrap">
+<span>Geschwindigkeit</span>
+<input id="gol-speed" max="30" min="1" step="1" type="range" value="10"/>
+<span id="gol-fps-out">10</span>
+</div>
+<div id="gol-zoom-wrap">
+<span>Zoom</span>
+<button id="gol-zoom-out">−</button>
+<span id="gol-zoom-label">100%</span>
+<button id="gol-zoom-in">+</button>
+</div>
+<div id="gol-stats">Gen: <span id="stat-gen">0</span> · Lebend: <span id="stat-alive">0</span></div>
+</div>
+<div id="gol-canvas-wrap">
+<canvas id="gol-canvas"></canvas>
+</div>
+</div>
+<script src="js/script.js"></script>
+</body>
+</html>
