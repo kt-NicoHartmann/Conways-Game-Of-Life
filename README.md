@@ -1,6 +1,6 @@
 # Conway's Game of Life
 
-A web-based interactive implementation of John Conway's famous cellular automaton, The Game of Life. This project simulates how complex, organic-like behaviors can emerge from a few simple mathematical rules.
+A web-based interactive implementation of John Conway's famous cellular automaton, The Game of Life. This project simulates how complex, organic-like behaviors can emerge from a few simple mathematical rules. The application is fully localized and available in both English and German.
 
 [Live Demo](https://nicohartmann.dev/conways_game_of_life_en.html)
 
