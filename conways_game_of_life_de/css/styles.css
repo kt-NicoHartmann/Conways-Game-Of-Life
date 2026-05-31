@@ -1,14 +1,93 @@
-#gol-wrap { padding: 1rem 0; font-family: var(--font-mono), monospace; }
-    #gol-canvas { display: block; border: 0.5px solid var(--color-border-tertiary, #ccc); border-radius: var(--border-radius-md, 4px); cursor: crosshair; width: 100%; }
-    #gol-controls { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; flex-wrap: wrap; }
-    #gol-controls button { font-size: 13px; padding: 5px 14px; border-radius: var(--border-radius-md, 4px); border: 0.5px solid var(--color-border-secondary, #999); background: var(--color-background-secondary, #eee); color: var(--color-text-primary, #000); cursor: pointer; }
-    #gol-controls button:hover { background: var(--color-background-tertiary, #ddd); }
-    #gol-controls button.active { background: var(--color-text-primary, #000); color: var(--color-background-primary, #fff); }
-    #gol-stats { font-size: 12px; color: var(--color-text-secondary, #666); margin-left: auto; }
-    #gol-speed-wrap { display: flex; align-items: center; gap: 6px; font-size: 12px; color: var(--color-text-secondary, #666); }
-    #gol-speed { width: 70px; }
-    #gol-zoom-wrap { display: flex; align-items: center; gap: 6px; font-size: 12px; color: var(--color-text-secondary, #666); }
-    #gol-zoom-out, #gol-zoom-in { padding: 3px 9px; font-size: 15px; line-height: 1; }
-    #gol-zoom-label { min-width: 34px; text-align: center; }
-    #gol-canvas-wrap { overflow: hidden; border: 0.5px solid var(--color-border-tertiary, #ccc); border-radius: var(--border-radius-md, 4px); cursor: crosshair; width: 100%; position: relative; }
-    #gol-canvas { border: none; border-radius: 0; width: auto; display: block; }
+#gol-wrap {
+	padding: 1rem 0;
+	font-family: var(--font-mono), monospace;
+}
+
+#gol-canvas {
+	display: block;
+	border: 0.5px solid var(--color-border-tertiary, #ccc);
+	border-radius: var(--border-radius-md, 4px);
+	cursor: crosshair;
+	width: 100%;
+}
+
+#gol-controls {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	margin-bottom: 10px;
+	flex-wrap: wrap;
+}
+
+#gol-controls button {
+	font-size: 13px;
+	padding: 5px 14px;
+	border-radius: var(--border-radius-md, 4px);
+	border: 0.5px solid var(--color-border-secondary, #999);
+	background: var(--color-background-secondary, #eee);
+	color: var(--color-text-primary, #000);
+	cursor: pointer;
+}
+
+#gol-controls button:hover {
+	background: var(--color-background-tertiary, #ddd);
+}
+
+#gol-controls button.active {
+	background: var(--color-text-primary, #000);
+	color: var(--color-background-primary, #fff);
+}
+
+#gol-stats {
+	font-size: 12px;
+	color: var(--color-text-secondary, #666);
+	margin-left: auto;
+}
+
+#gol-speed-wrap {
+	display: flex;
+	align-items: center;
+	gap: 6px;
+	font-size: 12px;
+	color: var(--color-text-secondary, #666);
+}
+
+#gol-speed {
+	width: 70px;
+}
+
+#gol-zoom-wrap {
+	display: flex;
+	align-items: center;
+	gap: 6px;
+	font-size: 12px;
+	color: var(--color-text-secondary, #666);
+}
+
+#gol-zoom-out,
+#gol-zoom-in {
+	padding: 3px 9px;
+	font-size: 15px;
+	line-height: 1;
+}
+
+#gol-zoom-label {
+	min-width: 34px;
+	text-align: center;
+}
+
+#gol-canvas-wrap {
+	overflow: hidden;
+	border: 0.5px solid var(--color-border-tertiary, #ccc);
+	border-radius: var(--border-radius-md, 4px);
+	cursor: crosshair;
+	width: 100%;
+	position: relative;
+}
+
+#gol-canvas {
+	border: none;
+	border-radius: 0;
+	width: auto;
+	display: block;
+}
