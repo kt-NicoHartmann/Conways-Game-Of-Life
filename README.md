@@ -4,6 +4,8 @@ A web-based interactive implementation of John Conway's famous cellular automato
 
 [Live Demo](https://nicohartmann.dev/conways_game_of_life_en.html)
 
+<img src="project_conway_en.webp" alt="Conway's Game of Life Grid" width="600">
+
 
 ## What is the Game of Life?
 
