@@ -41,7 +41,7 @@ Every cell interacts with its eight neighbors (horizontal, vertical, and diagona
 To run this project locally, follow these simple steps:
 1. Clone the Repository
 ```bash
-git clone [https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git)
+git clone [https://github.com/kt-NicoHartmann/Conways-Game-Of-Life.git](https://github.com/kt-NicoHartmann/Conways-Game-Of-Life.git)
 ```
 
 
@@ -50,11 +50,11 @@ git clone [https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git](https://gi
 Navigate into the project directory and open the index.html file in your preferred web browser.
 
 ```bash
-cd YOUR_REPOSITORY_NAME
+cd Conways-Game-Of-Life
 # On macOS/Linux:
-open index.html
+open conways_game_of_life_en.html
 # On Windows:
-start index.html
+start conways_game_of_life_en.html
 ```
 
 Alternatively, you can use an extension like Live Server in VS Code to host it locally.
