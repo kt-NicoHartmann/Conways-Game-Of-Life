@@ -50,7 +50,7 @@ git clone https://github.com/kt-NicoHartmann/Conways-Game-Of-Life.git
 Navigate into the project directory and open the index.html file in your preferred web browser.
 
 ```bash
-cd Conways-Game-Of-Life
+cd Conways-Game-Of-Life/conways_game_of_life_en/
 # On macOS/Linux:
 open conways_game_of_life_en.html
 # On Windows:
