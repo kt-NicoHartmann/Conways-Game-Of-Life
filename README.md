@@ -41,7 +41,7 @@ Every cell interacts with its eight neighbors (horizontal, vertical, and diagona
 To run this project locally, follow these simple steps:
 1. Clone the Repository
 ```bash
-git clone [https://github.com/kt-NicoHartmann/Conways-Game-Of-Life.git](https://github.com/kt-NicoHartmann/Conways-Game-Of-Life.git)
+git clone https://github.com/kt-NicoHartmann/Conways-Game-Of-Life.git
 ```
 
 
